@@ -1,4 +1,4 @@
-package warmups;
+package warmup;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;

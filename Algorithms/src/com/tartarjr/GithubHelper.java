@@ -13,9 +13,8 @@ import java.util.List;
  */
 public class GithubHelper {
 
-    private static final String PATH = "C:\\Development\\Hackerrank-Solutions\\Algorithms\\";
     private static final String FILE_NAME = "\\README.md";
-    private static final String RESOURCE_PATH = "C:\\Users\\emuoztu\\IdeaProjects\\HackerRank\\src\\";
+    private static final String RESOURCE_PATH = "C:\\Development\\Hackerrank-Solutions\\Algorithms\\src\\";
 
     public static final String[] LOWER_CASE_WORDS = new String[]{"The", "At", "In", "On", "A", "An", "And"};
 
@@ -26,7 +25,7 @@ public class GithubHelper {
         FileWriter fw = null;
 
         try {
-            fw = new FileWriter(PATH + packageName + FILE_NAME);
+            fw = new FileWriter(RESOURCE_PATH + packageName + FILE_NAME);
             bw = new BufferedWriter(fw);
 
             //writing README.md title
