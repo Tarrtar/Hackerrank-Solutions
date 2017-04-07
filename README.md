@@ -1,11 +1,8 @@
-# Hackerrank-Solutions
-My Hackerrank Solutions with Java
-
 # Implementation
 
 | Problem |Subdomain |Solution |
 | --- |--- |--- |
-| ACMICPC Team | Implementation | [ACMICPCTeam.java](/Algorithms/src/implementation/ACMICPCTeam.java) |
+| Acm Icpc Team | Implementation | [AcmIcpcTeam.java](/Algorithms/src/implementation/AcmIcpcTeam.java) |
 | Angry Professor | Implementation | [AngryProfessor.java](/Algorithms/src/implementation/AngryProfessor.java) |
 | Append and Delete | Implementation | [AppendAndDelete.java](/Algorithms/src/implementation/AppendAndDelete.java) |
 | Apple and Orange | Implementation | [AppleAndOrange.java](/Algorithms/src/implementation/AppleAndOrange.java) |
@@ -49,7 +46,6 @@ My Hackerrank Solutions with Java
 | Funny String | Strings | [FunnyString.java](/Algorithms/src/strings/FunnyString.java) |
 | Gemstones | Strings | [Gemstones.java](/Algorithms/src/strings/Gemstones.java) |
 | Super Reduced String | Strings | [SuperReducedString.java](/Algorithms/src/strings/SuperReducedString.java) |
-| Two Characters | Strings | [TwoCharacters.java](/Algorithms/src/strings/TwoCharacters.java) |
 | A Very Big Sum | Warmup | [AVeryBigSum.java](/Algorithms/src/warmup/AVeryBigSum.java) |
 | Birthday Cake Candles | Warmup | [BirthdayCakeCandles.java](/Algorithms/src/warmup/BirthdayCakeCandles.java) |
 | Compare the Triplets | Warmup | [CompareTheTriplets.java](/Algorithms/src/warmup/CompareTheTriplets.java) |
