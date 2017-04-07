@@ -3,4 +3,4 @@ My Hackerrank Solutions with Java 7 and Java 8. I update this repository frequen
 
 | Domain | Status |
 | --- | --- |
-| [Algorithms](/Domains/Algorithms) | On going |
+| [Algorithms](/Algorithms) | On going |
