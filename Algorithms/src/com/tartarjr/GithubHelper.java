@@ -13,19 +13,20 @@ import java.util.List;
  */
 public class GithubHelper {
 
-    private static final String FILE_NAME = "\\README.md";
+    private static final String FILE_PATH = "C:\\Development\\Hackerrank-Solutions\\README.md";
     private static final String RESOURCE_PATH = "C:\\Development\\Hackerrank-Solutions\\Algorithms\\src\\";
+    private static final String LINK = "/Algorithms/src/";
 
     public static final String[] LOWER_CASE_WORDS = new String[]{"The", "At", "In", "On", "A", "An", "And"};
 
     //generates a github README.md file with title, explanation and table from given parameters
-    public static void generateGithubReadMeFile(String packageName, String title, String[] columnNames) {
+    public static void generateGithubReadMeFile(String title, String[] columnNames) {
 
         BufferedWriter bw = null;
         FileWriter fw = null;
 
         try {
-            fw = new FileWriter(RESOURCE_PATH + packageName + FILE_NAME);
+            fw = new FileWriter(FILE_PATH);
             bw = new BufferedWriter(fw);
 
             //writing README.md title
@@ -49,8 +50,8 @@ public class GithubHelper {
             bw.newLine();
 
             ////generating string for each row and writing it to file
-            for (String rowContent : getFileNames(packageName)) {
-                bw.write("| " + generateProblemName(rowContent) + " | " + "[" + rowContent + "]" + "(/" + rowContent + ") |");
+            for (RowContent rowContent : getFileNames()) {
+                bw.write("| " + rowContent.getName() + " | " + rowContent.getSubDomain() + " | " + "[" + rowContent.getSolution() + "]" + "(" + LINK + decapitalizeTheFirstLetter(rowContent.getSubDomain()) + "/" + rowContent.getSolution() + ") |");
                 bw.newLine();
             }
         } catch (IOException e) {
@@ -71,16 +72,22 @@ public class GithubHelper {
     }
 
     // retrieve all file names from given path
-    public static List<String> getFileNames(String packageName) {
+    public static List<RowContent> getFileNames() {
 
-        File folder = new File(RESOURCE_PATH + packageName);
-        File[] listOfFiles = folder.listFiles();
+        File dir = new File(RESOURCE_PATH);
+        File[] listOfChildDirs = dir.listFiles();
 
-        List<String> fileNames = new ArrayList<>();
+        List<RowContent> fileNames = new ArrayList<>();
 
-        for (int i = 0; i < listOfFiles.length; i++) {
-            if (listOfFiles[i].isFile()) {
-                fileNames.add(listOfFiles[i].getName());
+        for (int i = 0; i < listOfChildDirs.length; i++) {
+            if (listOfChildDirs[i].isDirectory()) {
+                File[] filesOfChild = listOfChildDirs[i].listFiles();
+
+                for (int j = 0; j < filesOfChild.length; j++) {
+                    if (filesOfChild[j].isFile()) {
+                        fileNames.add(new RowContent(generateProblemName(filesOfChild[j].getName()), capitalizeTheFirstLetter(listOfChildDirs[i].getName()), filesOfChild[j].getName()));
+                    }
+                }
             }
         }
 
@@ -111,5 +118,9 @@ public class GithubHelper {
 
     private static String decapitalizeTheFirstLetter(String word) {
         return word.substring(0, 1).toLowerCase() + word.substring(1);
+    }
+
+    private static String capitalizeTheFirstLetter(String word) {
+        return word.substring(0, 1).toUpperCase() + word.substring(1);
     }
 }

@@ -4,10 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String packageName = "implementation";
         String title = "Implementation";
-        String[] columnNames = {"Problem", "Solution"};
+        String[] columnNames = {"Problem", "Subdomain", "Solution"};
 
-        GithubHelper.generateGithubReadMeFile(packageName, title, columnNames);
+        GithubHelper.generateGithubReadMeFile(title, columnNames);
     }
 }
