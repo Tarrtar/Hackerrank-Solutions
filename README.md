@@ -1,8 +1,8 @@
 # Hackerrank-Solutions
-My Hackerrank Solutions with Java 7 and Java 8
+My Hackerrank Solutions with Java 7 and Java 8. I update this repository frequently, so keep on tracking for new or more efficient solutions.
 
-| Daomain | Status |
+| Domain | Status |
 | --- | --- |
-| Warmup | List all new or modified files |
-| Implementation  | Show file differences that haven't been staged |
-| Strings  | Show file differences that haven't been staged |
+| Warmup | 10/10 |
+| Implementation  | 38/63 |
+| Strings  | 6/45 |
