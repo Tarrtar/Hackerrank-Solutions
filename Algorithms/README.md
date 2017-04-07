@@ -2,6 +2,6 @@
 
 | SubDomain | Status |
 | --- | --- |
-| [Warmup](/Algorithms/Warmup) | 10/10 |
-| [Implementation](/Algorithms/Implementation) | 38/63 |
-| [Strings](/Algorithms/Strings) | 6/45 |
+| [Warmup](/Algorithms/src/warmups) | 10/10 |
+| [Implementation](/Algorithms/src/implementation) | 38/63 |
+| [Strings](/Algorithms/src/strings) | 6/45 |
