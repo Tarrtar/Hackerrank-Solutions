@@ -1,7 +1,7 @@
 # Implementation
 
 | Problem |Solution |
-| --- |--- |
+
 | [ACMICPCTeam.java](/ACMICPCTeam.java) | ACMICPCTeam.java 
 | [AngryProfessor.java](/AngryProfessor.java) | AngryProfessor.java 
 | [AppendAndDelete.java](/AppendAndDelete.java) | AppendAndDelete.java 
