@@ -3,13 +3,13 @@
 | Problem |Solution |
 | --- |--- |
 | [ACMICPCTeam.java](/ACMICPCTeam.java) | ACMICPCTeam.java 
-| [AngryProfessor.java](/AngryProfessor.java) | AngryProfessor.java |
-| [AppendAndDelete.java](/AppendAndDelete.java) | AppendAndDelete.java |
-| [AppleAndOrange.java](/AppleAndOrange.java) | AppleAndOrange.java |
-| [BeautifulDaysAtTheMovies.java](/BeautifulDaysAtTheMovies.java) | BeautifulDaysAtTheMovies.java |
-| [BeautifulTriplets.java](/BeautifulTriplets.java) | BeautifulTriplets.java |
-| [BetweenTwoSets.java](/BetweenTwoSets.java) | BetweenTwoSets.java |
-| [BonAppetit.java](/BonAppetit.java) | BonAppetit.java |
+| [AngryProfessor.java](/AngryProfessor.java) | AngryProfessor.java 
+| [AppendAndDelete.java](/AppendAndDelete.java) | AppendAndDelete.java 
+| [AppleAndOrange.java](/AppleAndOrange.java) | AppleAndOrange.java 
+| [BeautifulDaysAtTheMovies.java](/BeautifulDaysAtTheMovies.java) | BeautifulDaysAtTheMovies.java 
+| [BeautifulTriplets.java](/BeautifulTriplets.java) | BeautifulTriplets.java 
+| [BetweenTwoSets.java](/BetweenTwoSets.java) | BetweenTwoSets.java 
+| [BonAppetit.java](/BonAppetit.java) | BonAppetit.java 
 | [BreakingTheRecords.java](/BreakingTheRecords.java) | BreakingTheRecords.java |
 | [CatsAndAMouse.java](/CatsAndAMouse.java) | CatsAndAMouse.java |
 | [CircularArrayRotation.java](/CircularArrayRotation.java) | CircularArrayRotation.java |
