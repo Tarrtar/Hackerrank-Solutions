@@ -5,7 +5,7 @@ import java.text.NumberFormat;
 import java.util.Scanner;
 
 /**
- * Created by emuoztu on 3/8/2017.
+ * Created by tatarJR on 3/8/2017.
  */
 public class PlusMinus {
 

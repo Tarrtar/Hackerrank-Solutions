@@ -3,7 +3,7 @@ package strings;
 import java.util.*;
 
 /**
- * Created by emuoztu on 4/3/2017.
+ * Created by tatarJR on 4/3/2017.
  */
 public class SuperReducedString {
 

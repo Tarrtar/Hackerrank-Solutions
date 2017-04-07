@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 /**
- * Created by emuoztu on 4/1/2017.
+ * Created by tatarJR on 4/1/2017.
  */
 public class TheTimeInWords {
 

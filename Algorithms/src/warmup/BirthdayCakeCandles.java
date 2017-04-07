@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * Created by emuoztu on 4/5/2017.
+ * Created by tatarJR on 4/5/2017.
  */
 public class BirthdayCakeCandles {
 

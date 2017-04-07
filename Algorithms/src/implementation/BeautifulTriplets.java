@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * Created by emuoztu on 3/31/2017.
+ * Created by tatarJR on 3/31/2017.
  */
 public class BeautifulTriplets {
 

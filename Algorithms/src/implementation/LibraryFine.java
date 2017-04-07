@@ -3,7 +3,7 @@ package implementation;
 import java.util.Scanner;
 
 /**
- * Created by emuoztu on 3/24/2017.
+ * Created by tatarJR on 3/24/2017.
  */
 public class LibraryFine {
     public static void main(String[] args) {

@@ -6,7 +6,7 @@ import java.util.Scanner;
 import java.util.TreeMap;
 
 /**
- * Created by emuoztu on 3/26/2017.
+ * Created by tatarJR on 3/26/2017.
  */
 public class EqualizeTheArray {
 

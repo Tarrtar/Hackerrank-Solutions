@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * Created by emuoztu on 3/30/2017.
+ * Created by tatarJR on 3/30/2017.
  */
 public class QueensAttackII {
 

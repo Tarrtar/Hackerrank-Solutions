@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 
 /**
- * Created by emuoztu on 3/23/2017.
+ * Created by tatarJR on 3/23/2017.
  */
 public class SherlockAndSquares {
 
