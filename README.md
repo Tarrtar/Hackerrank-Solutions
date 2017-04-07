@@ -1,6 +1,6 @@
 Solutions for [HackerRank](https://www.hackerrank.com/) Algorithms problems 
 
-Solutions are coded using Java 8 and Java 7
+Solutions are coded using Java 7 and Java 8
 
 # Implementation
 
